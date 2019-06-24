@@ -1,0 +1,102 @@
+body {
+  background-color: #b8a2ce;
+  color: #5a5475;
+  font-size: 1.2em;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 4em;
+  margin-bottom: 0px;
+}
+
+header, nav, footer {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+#quote {
+  width: 50%;
+  text-align: center;
+  font-style: italic;
+}
+
+#content iframe {
+  display: block;
+  margin:0px auto;
+}
+
+.hobby {
+  font-weight: oblique;
+  color: #ffffff;
+}
+
+footer {
+  display: block;
+  font-size: 0.8em;
+  color: #bcffc1;
+}
+
+/* Navigation rules */
+nav a {
+  padding: 15px;
+  padding-bottom: 4px;
+  font-size: 1.8em;
+  text-decoration: none;
+  color: #bcffc1;
+}
+
+nav a:hover {
+  border-bottom: 2px #FFBDD7 solid;
+  font-size: 2em;
+  transition: .9s;
+}
+
+#current {
+  color: #FFFFFF;  /* Special color for link of current page */
+}
+
+/* End navigation rules */
+
+
+/* Table rules */
+table {
+  margin:0px auto;
+}
+
+#table-header {
+  font-weight: bold;
+  background-color: #FFFFFF;
+}
+
+.table-row {
+  background-color: #bcffc1;
+}
+
+td {
+  padding-right: 10px;
+  font-size: 1.3em;
+}
+
+td strong{
+  color: #FFFFFF;
+}
+/* End table rules */
+
+/* List rules */
+ul {
+  margin:0px auto;
+  width: 500px;
+  text-align: left;
+}
+
+/* End list rules */
+
+
+
